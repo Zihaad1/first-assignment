@@ -59,6 +59,7 @@
 /* Header Styles */
 
 .header{
+  
   background-image: url('/assets/Hero-bg.png');  
   background-repeat: repeat-x;
   background-position: center;  
@@ -70,7 +71,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 150px;
+  margin: 15px 150px;
   
 }
 
@@ -79,34 +80,44 @@ a{
 }
 
 .nav-title{
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 800;
 }
 
 /* Banner Styles */
 
 .banner-content{
-  max-width: 800px;
+  width: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 210px; 
+  margin-bottom: 150px;
+   
+}
+
+.banner-description{
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 800px;
+  margin-bottom: 3px;
 }
 .banner-title{
-  font-size: 38px;
+  font-size: 48px;
   font-weight: 800;
   margin-bottom: 24px;
 }
+
 .banner-profile-pic{
   width: 200px;
   height: auto;
-  
 }
+
 .banner{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px 0;
   
 }
