@@ -10,7 +10,7 @@
 /* shared styles */
 
 .secondary-bg{
-  background-color: rgba(13, 19, 33, 0.068);
+  background-color: rgba(13, 19, 33, 0.021);
 }
 .text-primary{
   color: #0D1321;
@@ -74,10 +74,13 @@ nav{
   margin: 15px 150px;
 
 }
-
-header a{
+a{
   text-decoration: none;
 } 
+
+/* header a{
+  text-decoration: none;
+}  */
 /* main a{
   text-decoration: none;
 } */
